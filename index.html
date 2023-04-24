@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>НедоПроекты - Miserz_</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="scrollTop">
+	<a class="scrollTop__btn scroll-to-block" href="#" data-block=".header">
+		<img class="scrollTop__img" src="images/arrow-up.png" alt="">
+	</a>
+</div>
+
+
+<header class="header">
+	<div class="container">
+
+		<div class="header__inner">
+			<div class="user">
+				<div class="user__avatar">
+					<img src="images/user.jpg" alt="" width="57" height="57">
+				</div>
+				<div class="user__content">
+					<div class="user__name">
+						Miserz_
+					</div>
+				</div>
+			</div>
+			<nav class="nav">
+				<a class="nav__link active scroll-to-block" href="#" data-block=".about">обо мне</a>
+				<a class="nav__link scroll-to-block" href="#" data-block=".works">работы</a>
+				<a class="nav__link scroll-to-block" href="#" data-block=".reviews">отзывы</a>
+				<a class="nav__link  nav__link--btn" href="https://www.youtube.com/@nedohackerslite" target="_blank">лучший канал</a>
+			</nav>
+		</div>
+
+	</div>
+</header>
+
+
+<section class="about">
+	<div class="container  container--about">
+
+		<div class="about__inner">
+			<div class="about__photo">
+				<img src="images/aboutMe.png" alt="" class="img">
+			</div>
+
+			<div class="about__content">
+				<h3 class="about__title">ОБО МНЕ</h3>
+				<div class="about__text">
+					<p>Привет! Меня зовут Егор. Однажды увидел твой канал в рекомендациях и зашёл посмотреть.
+						Мне так понравилась рубрика "С.С.Н.", что пересмотрел почти все твои ролики этой рубрики.
+						И решил тоже начать делать программы. Спасибо за старание!</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<div class="works">
+	<div class="container  container--works">
+		
+		<div class="works__intro">
+			<h3 class="works__title">РАБОТЫ</h3>
+		</div>
+
+		<div class="work__nav">
+			<a href="#" class="work__nav-link" data-filter="all">All</a>
+			<a href="#" class="work__nav-link" data-filter="windows">Windows</a>
+			<a href="#" class="work__nav-link" data-filter="steam">Steam</a>
+			<a href="#" class="work__nav-link" data-filter="epic games">Epic Games</a>
+		</div>
+		
+		
+		<div class="portfolio">
+			<div class="portfolio__col" data-cat="windows" onClick="window.location='win12/index.html'" style="cursor:pointer">
+				<div class="work">
+					<img class="work__image" src="images/windows12.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">Категория: windows</div>
+						<div class="work__title">
+							windows 12 v1.2
+							<time class="work_date" datetime="2023-04-24">24.04.2023</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col" data-cat="steam">
+				<div class="work">
+					<img class="work__image  work__image--blur" src="images/steam.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">Категория: steam</div>
+						<div class="work__title">
+							steam crack v1
+							<time class="work_date" datetime="">в разработке</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col" data-cat="epic games">
+				<div class="work">
+					<img class="work__image  work__image--blur" src="images/epic_games.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">Категория: epic games</div>
+						<div class="work__title">
+							epic games crack V1
+							<time class="work_date" datetime="2023-04-24">в будущем</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio__col" data-cat="windows">
+				<div class="work">
+					<img class="work__image  work__image--blur" src="images/windows12.png" alt="">
+					<div class="work__content">
+						<div class="work__cat">Категория: windows</div>
+						<div class="work__title">
+							windows 12 v1.1
+							<time class="work_date" datetime="2023-04-23">устарело</time>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center">
+			<a href="#" class="btn  btn--sm">загрузить больше работ</a>
+		</div>
+
+	</div>
+</div>
+
+
+<div class="reviews">
+	<div class="container  container--reviews">
+		<div class="reviews__intro">
+			<h3 class="reviews__title">ОТЗЫВЫ</h3>
+		</div>
+
+		<div class="reviews__block">
+			<div class="reviews__col">
+				<div class="reviews__item">
+					<div class="reviews__text">
+						<p>Винда просто топчик! В новой версии все баги пофиксили. Респект👍</p>
+						<p>Ждём стим😉</p>
+					</div>
+					<div class="reviews__author">
+						<img class="reviews__photo" src="images/reviews_user_1.png" alt="">
+						<div class="reviews__name">Костян</div>
+						<div class="reviews__rating">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star  reviews__star--unactive" height="13" width="13">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="reviews__col">
+				<div class="reviews__item">
+					<div class="reviews__text">
+						<p>Спафиба за виндуфс 12 это очен клуто. Вафе тема😊</p>
+						<p>Мнэ очинь понвавилосьь</p>
+					</div>
+					<div class="reviews__author">
+						<img class="reviews__photo" src="images/reviews_user_3.png" alt="">
+						<div class="reviews__name">Макфимка 2016</div>
+						<div class="reviews__rating">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="reviews__col">
+				<div class="reviews__item">
+					<div class="reviews__text">
+						<p>Круто, но чтобы не втыкал поставлю две звезды!</p>
+						<p>Пока не будет epic games, 2 звезды🤣</p>
+					</div>
+					<div class="reviews__author">
+						<img class="reviews__photo" src="images/reviews_user_2.png" alt="">
+						<div class="reviews__name">USER228666</div>
+						<div class="reviews__rating">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star  reviews__star--unactive" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star  reviews__star--unactive" height="13" width="13">
+							<img src="images/star.png" alt="" class="reviews__star  reviews__star--unactive" height="13" width="13">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<footer class="footer">
+	<div class="container">
+
+		<div class="footer__inner">
+			<div class="footer__credits">
+				<div class="footer__copyright">
+					&copy; 2023 «Misers_»
+				</div>
+			</div>
+
+			<nav class="footer__nav">
+				<a href="#" class="footer__nav-link scroll-to-block" data-block=".about">Обо мне</a>
+				<a href="#" class="footer__nav-link scroll-to-block" data-block=".works">Работы</a>
+				<a href="#" class="footer__nav-link scroll-to-block" data-block=".reviews">Отзывы</a>
+				<a href="https://www.youtube.com/@nedohackerslite" target="_blank" class="footer__nav-link  footer__nav-link--btn">Лучший анал</a>
+			</nav>
+		</div>
+
+	</div>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
